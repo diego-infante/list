@@ -61,12 +61,6 @@ button {
 .task-item-text {
   text-decoration: line-through;
 }
-
-/* Cambiar el color de fondo al pasar el ratón sobre el elemento */
-.task-item:hover {
-  background-color: #4583ff;
-}
-
 /* Estilos para el botón de completar tarea */
 .complete-button {
   background-color: #4f98ff;
