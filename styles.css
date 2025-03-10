@@ -36,6 +36,11 @@ button {
   transition: background-color 0.3s;
 }
 
+.errormessage{
+  color: red;
+  font-size: 14px;
+}
+
 /* Estilos para el botón de añadir tarea */
 #form-button {
   background-color: #0073ff;
