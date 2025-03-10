@@ -48,16 +48,6 @@ button {
   background-color: #032f7a;
 }
 
-/* Estilos para cada elemento de la lista de tareas */
-.task-item {
-  padding: 10px;
-  border-bottom: 1px solid #81c2ff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: background-color 0.3s;
-}
-
 .task-item-text {
   text-decoration: line-through;
 }
