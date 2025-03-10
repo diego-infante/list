@@ -84,6 +84,11 @@ button {
   justify-content: center;
 }
 
+.task-count {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
 @media (min-width: 768px) {
   #main {
     display: flex;
