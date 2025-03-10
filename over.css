@@ -30,6 +30,10 @@
   display: flex;
   padding: 0%;
 }
+#task-counter-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 
 :root {
   color-scheme: light dark;
