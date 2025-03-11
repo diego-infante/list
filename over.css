@@ -16,7 +16,6 @@
 #taskList {
   height: 20rem;
   overflow: auto;
-  padding: 1rem;
 }
 #taskinput {
   width: 100%;
@@ -32,15 +31,12 @@
   padding: 0%;
 }
 
-#task-counter-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
 :root {
   color-scheme: light dark;
   --bg-color: light-dark(white, black);
   --border-color: light-dark(#d6d9dc, #515354);
+  --primary-color: light-dark(#6366f1, #c2c3e8);
+  --primary-active-color: light-dark(#4142a1, #dcdde4);
   --text-color: light-dark(black, white);
   --btn-text-color: light-dark(white, black);
   --width-page: 80rem;

@@ -1,4 +1,4 @@
-
+/* Estilos básicos para el cuerpo de la página */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -26,10 +26,6 @@ h1 {
   text-align: center;
   color: #2780f5;
 }
-.errormenssage {
-  color: red;
-  font-size: 1rem;
-}
 
 /* Estilos básicos para los botones */
 button {
@@ -52,9 +48,23 @@ button {
   background-color: #032f7a;
 }
 
-.task-item-text {
-  text-decoration: solid;
+/* Estilos para cada elemento de la lista de tareas */
+.task-item {
+  padding: 10px;
+  border-bottom: 1px solid #81c2ff;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  transition: background-color 0.3s;
+}
+
+.task-item-text {
+  text-decoration: line-through;
+}
+
+/* Cambiar el color de fondo al pasar el ratón sobre el elemento */
+.task-item:hover {
+  background-color: #4583ff;
 }
 
 /* Estilos para el botón de completar tarea */
@@ -83,10 +93,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.task-count {
-  font-weight: bold;
-  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -120,4 +126,3 @@ html,
 body {
   overflow: hidden;
 }
-
