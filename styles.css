@@ -22,9 +22,10 @@ body {
 }
 
 /* Estilo del título */
-h1 {
+#main-tittle {
   text-align: center;
   color: #2780f5;
+  font-size: 1.5rem;
 }
 .errormenssage {
   color: red;
