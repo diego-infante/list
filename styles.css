@@ -9,11 +9,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin-bottom: 20px;
 }
 
 /* Contenedor principal de la lista de tareas */
 .container {
-  max-width: var(--width-page);
   width: 100%;
   background: #99c2ed;
   padding: 20px;
@@ -60,7 +60,7 @@ button {
 
 /* Estilos para el botón de completar tarea */
 .complete-button {
-  background-color: #0073ff;
+  background-color: #2b77e2;
   color: white;
 }
 
@@ -83,7 +83,7 @@ button {
 .task-item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 0.5rem;
   padding: 0.5rem;
   border-radius: 4px;
