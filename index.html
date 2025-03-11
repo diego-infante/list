@@ -14,25 +14,24 @@
       <!-- Contenedor principal de la lista de tareas -->
       <div class="container">
         <!-- Título de la lista de tareas -->
-        <h1 id="main-title">Lista de Tareas</h1>
+        <h1 id="main-title">LISTA DE TAREAS</h1>
 
         <form id="main-form">
           <input
             type="text"
             id="taskinput"
-            placeholder="ir a hacer mercado"
+            placeholder="Añadir una tarea"
             required
           />
           <button type="submit" id="form-button">+</button>
-         
         </form>
         <div>
-          <p id="error-menssage">debe colocar una tarea</p>
+          <p class="errormenssage">DEBE COLOCAR UNA TAREA</p>
         </div>
 
         <!-- Lista de tareas -->
         <ul id="taskList">
-          <li class="task-item">
+          <li class="task-item" style="display: flex; align-items: center">
             <button class="complete-button">✔</button>
             <p class="task-item-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
