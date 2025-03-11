@@ -84,6 +84,9 @@ button {
   align-items: center;
   justify-content: center;
 }
+.task-item-text {
+  text-decoration: line-through;
+}
 .task-count {
   font-weight: bold;
   margin-top: 1rem;
