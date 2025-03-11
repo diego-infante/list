@@ -17,6 +17,9 @@
   height: 20rem;
   overflow: auto;
   padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
 }
 #taskinput {
   width: 100%;
@@ -29,7 +32,6 @@
 #main-form {
   justify-content: center;
   display: flex;
-  padding: 0%;
 }
 
 #task-counter-container {
