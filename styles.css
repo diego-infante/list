@@ -65,7 +65,7 @@ button {
 
 /* Cambiar el color de fondo del botón de completar tarea al pasar el ratón */
 .complete-button:hover {
-  background-color: #032f7a;
+background-color: #032f7a;
 }
 
 /* Estilos para el botón de eliminar tarea */
