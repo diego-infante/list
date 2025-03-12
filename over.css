@@ -1,4 +1,4 @@
-/* texto responsivo */
+
 
 *,
 ::before,
@@ -50,4 +50,3 @@
   --btn-text-color: light-dark(white, black);
   --width-page: 80rem;
 }
-
