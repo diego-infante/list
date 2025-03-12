@@ -13,11 +13,6 @@
   font-style: normal;
 }
 
-#main{
-  height: auto;
-  flex:auto;
-
-}
 #taskList {
   height: 20rem;
   overflow: auto;
