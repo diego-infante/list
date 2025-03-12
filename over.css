@@ -1,0 +1,52 @@
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#taskList {
+  height: 20rem;
+  overflow: auto;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+#taskinput {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#main-form {
+  justify-content: center;
+  display: flex;
+}
+
+#task-counter-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+:root {
+  color-scheme: light dark;
+  --bg-color: light-dark(white, black);
+  --border-color: light-dark(#d6d9dc, #515354);
+  --text-color: light-dark(black, white);
+  --btn-text-color: light-dark(white, black);
+  --width-page: 80rem;
+}
