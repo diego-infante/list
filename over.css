@@ -15,7 +15,6 @@
 
 #main{
   height: auto;
-  flex-wrap: wrap;
   flex:auto;
 }
 #taskList {
