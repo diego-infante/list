@@ -14,7 +14,7 @@
 }
 
 #main{
-  height: 100vh;
+  height: auto;
   flex-wrap: wrap;
   flex:auto;
 }
