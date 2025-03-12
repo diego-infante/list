@@ -12,6 +12,12 @@
   font-weight: 400;
   font-style: normal;
 }
+
+#main{
+  height: 100vh;
+  flex-wrap: wrap;
+  flex:auto;
+}
 #taskList {
   height: 20rem;
   overflow: auto;
