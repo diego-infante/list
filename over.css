@@ -16,6 +16,8 @@
 #main{
   height: auto;
   flex:auto;
+  padding: 100%;
+
 }
 #taskList {
   height: 20rem;
